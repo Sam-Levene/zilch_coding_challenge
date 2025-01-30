@@ -33,10 +33,10 @@ Working Directory: ``H:/Coding/workspace/salesforce-seasonal-release-test-automa
 Command Line: ``test "-Dcucumber.options=--tags '@[YOUR-TAG-HERE]" -Denv=[YOUR-ENV-HERE] -Dopenreport=false -DforkCount=0 -DreuseForks=false``
 ***
 ### Maintenance of Suite
-As the suite uses xpaths to validate elements within the Salesforce User Interface; it is highly reliant on the software remaining stable and not changing the location of the HTML elements on the page.
-However, should an element not be found, the system will say what element xpath could not be found; thus it is then required that the data in the test is changed to match the correct xpath location.
+As the suite uses Locators to validate elements within the User Interface; it is highly reliant on the software remaining stable and not changing the location of the HTML elements on the page.
+However, should an element not be found, the system will say what element could not be found; thus it is then required that the data in the test is changed to match the correct location.
 
-I have attempted to make the xpath variables as easy to reconfigure as possible by placing all the xpaths into a page-object model that allows the user to know exactly what page the xpath is related to.
+I have attempted to make the variables as easy to reconfigure as possible by placing all the locators into a page-object model that allows the user to know exactly what page the locator is related to.
 
 ***
 ### Glossary of Terms
