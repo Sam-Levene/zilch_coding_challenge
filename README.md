@@ -1,4 +1,4 @@
-# Salesforce Seasonal Release Test Automation
+# Zilch Coding Challenge
 
 ## Table of contents
 1. [Introduction](#markdown-header-introduction)
