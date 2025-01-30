@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.zilch.zilch_coding_challenge.ZilchCodingChallengeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.55 s <<< FAILURE! -- in com.zilch.zilch_coding_challenge.ZilchCodingChallengeTest
+Zilch Coding Challenge.Use the ToolsQA Demo Book Store API to request the status of a book -- Time elapsed: 19.73 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonObject.get(String)" because "returnedObject" is null
+	at com.zilch.zilch_coding_challenge.step_definitions.StepDefinitions.theBookWillBe(StepDefinitions.java:176)
+	at ✽.the book will be "Git Pocket Guide"(file:///C:/Users/samle/Documents/projects/zilch_coding_challenge/src/test/resources/features/ZilchCodingChallenge.feature:18)
+

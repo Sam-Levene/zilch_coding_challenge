@@ -1,0 +1,163 @@
+.centered {
+    margin: auto;
+    text-align: center;
+}
+
+.center-card {
+    margin: auto;
+    width: 100%;
+}
+
+.topMargin {
+    margin-top:50px;
+}
+
+.header-fixed {
+    width: 100%
+}
+
+.header-fixed th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+
+.header-fixed th:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.tableAdjust {
+    margin-right: -50px;
+    padding-left: 50px;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fixedTable {
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.stepMargin {
+    width: 700px;
+}
+
+.float {
+    position: absolute;
+    top: 56px;
+    left: 1800px;
+    width: fit-content;
+    display: inline-flex;
+}
+
+.float2 {
+    position: absolute;
+    top: 1000px;
+    left: 1800px;
+    width: fit-content;
+    display: inline-flex;
+}
+
+.top50 {
+    margin-top: 50px;
+}
+
+.btn-block {
+    display: block;
+    width: 98%;
+}
+
+.overviewTable {
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.thinBorder {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.modal-dialog {
+    position: relative;
+    display: table;
+    overflow-y: auto;
+    overflow-x: auto;
+    width: auto;
+    min-width: 300px;
+}
+.successChart {
+    position: absolute;
+    left: 10px;
+    top: 300px;
+}
+
+#duration {
+    position: absolute;
+    left: 10px;
+    top: 600px;
+}
+
+#percentage{
+    position: absolute;
+    left: 10px;
+    top: 900px;
+}
+
+#metaTable {
+    position: absolute;
+    left: 10px;
+    top: 300px;
+
+}
+.fixed {
+    position: fixed;
+    top: 60%;
+}
+
+.tableWidth {
+    width: fit-content;
+    max-height: 400px;
+    max-width: 1800px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.cafeBackgroundColor {
+    background-color: rgb(249, 246, 237);
+}
+
+#testSteps{
+    background-color: #b8daff;
+    padding: .75rem;
+    width:98%;
+    height:45px;
+}
